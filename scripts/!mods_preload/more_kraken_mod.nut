@@ -60,7 +60,7 @@
 			party.setUsingGlobalVision(false);
 			party.setLooting(false);
 
-			// set the new base speed only 10% and visibility 100%
+			// set the new base speed only 100% and visibility 100%
 			party.setMovementSpeed(this.Math.floor(party.getBaseMovementSpeed() * 1.0));
 			party.setVisibilityMult(this.Math.floor(party.getVisibilityMult() * 1.0));
 
@@ -81,7 +81,7 @@
 			return true;
 		};
 		
-		// I push this function 3 times so there is more chance for fucntion to be picked
+		// I push this function 10 times so there is more chance for fucntion to be picked
 		obj.m.Options.push(beast);
 		obj.m.Options.push(beast);
 		obj.m.Options.push(beast);
