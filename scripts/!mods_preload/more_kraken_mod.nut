@@ -6,6 +6,7 @@
 		local beast = function ( _action, _nearTile = null )
 		{
 			local disallowedTerrain = [];
+			local distanceToNextAlly = 10;
 			
 			// i add this so it won't be messy with a tons of i == || i == || i === ....
 			local validTerrain = [
