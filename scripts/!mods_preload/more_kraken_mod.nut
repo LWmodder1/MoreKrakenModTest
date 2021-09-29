@@ -93,15 +93,5 @@
 		obj.m.Options.push(beast);
 		obj.m.Options.push(beast);
 		obj.m.Options.push(beast);
-		obj.m.BeastsHigh.push(beast);
-		obj.m.BeastsHigh.push(beast);
-		obj.m.BeastsHigh.push(beast);
-		obj.m.BeastsHigh.push(beast);
-		obj.m.BeastsHigh.push(beast);
-		obj.m.BeastsHigh.push(beast);
-		obj.m.BeastsHigh.push(beast);
-		obj.m.BeastsHigh.push(beast);
-		obj.m.BeastsHigh.push(beast);
-		obj.m.BeastsHigh.push(beast);
 	});
 })
